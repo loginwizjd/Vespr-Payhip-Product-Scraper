@@ -8,7 +8,6 @@ import re
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-# ANSI color codes for better readability
 RESET = "\033[0m"
 GREEN = "\033[92m"
 RED = "\033[91m"
@@ -152,7 +151,7 @@ def scrape_all():
     print("2. Export to CSV")
     export_choice = input(CYAN + "Choose an export option (1/2): " + RESET).strip()
     filename = input(YELLOW + "Enter filename (without extension): " + RESET).strip()
-    filename = re.sub(r'[<>:"/\\|?*]', '_', filename)  # Sanitize filename
+    filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
     if export_choice == "1":
         export_to_json(products, f"{filename}.json")
     elif export_choice == "2":
