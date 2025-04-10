@@ -63,15 +63,8 @@ python scraper.py
 ## Example Output
 
 ### Console Output
-```plaintext
- __      _______ _____   _____   _____   _____   _____   _____  
- \ \    / / ____|  __ \ |  __ \ |  __ \ |  __ \ / ____| |  __ \ 
-  \ \  / / (___ | |__) || |__) || |__) || |__) | (___   | |__) |
-   \ \/ / \___ \|  ___/ |  ___/ |  ___/ |  _  / \___ \  |  ___/ 
-    \  /  ____) | |     | |     | |     | | \ \ ____) | | |     
-     \/  |_____/|_|     |_|     |_|     |_|  \_\_____/  |_|     
-                                                                
-                  VS Vespr Payhip Scraper V1.1.0
+```plaintext                                   
+                  Vespr Payhip Scraper V1.1.0
 
 Welcome to Vespr Payhip Scraper!
 Scrape Payhip product pages and export data in JSON, CSV, or Google Drive.
